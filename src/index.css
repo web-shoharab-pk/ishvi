@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'gothic bold';
+  src: url(./static/fonts/gothic-bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'gothic regular';
+  src: url(./static/fonts/gothic-regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  background-color: #FAFAFA;
+  font-family: 'gothic bold',
+  'gothic regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro,
+  Menlo,
+  Monaco,
+  Consolas,
+  'gothic regular';
+}

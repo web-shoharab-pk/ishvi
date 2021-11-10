@@ -1,0 +1,44 @@
+.normal_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #666666;
+}
+
+.chart_section {
+    background: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 214px;
+    margin-right: 10px;
+}
+
+.anaylytics_section_2 {
+    background: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    width: 100%;
+    height: 214px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.col_chart {
+    background: #1B6CFC;
+    border-radius: 10px;
+    width: 130px;
+    height:15px;
+}
+
+.title {
+    color: #00BB00;
+    font-size: 14px;
+    
+}
+

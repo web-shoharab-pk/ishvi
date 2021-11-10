@@ -1,0 +1,4 @@
+.Reviews::before{
+    /* content: url("../${process.env.PUBLIC_URL}/img/Mentor/start.png"); */
+    margin-right: 5px;
+}

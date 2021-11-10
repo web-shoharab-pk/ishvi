@@ -1,0 +1,11 @@
+.shorting_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: '2px 2px 10px #DCDCDC';
+    cursor: pointer;
+}
+.mentors_card_section {
+    margin-bottom: 200px;
+}

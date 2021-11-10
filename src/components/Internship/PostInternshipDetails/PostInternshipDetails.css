@@ -1,0 +1,105 @@
+.postInternship_section {
+  font-family: Century Gothic;
+}
+.help_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+}
+
+.save_draft_btn {
+  width: 90%;
+  height: 56px;
+  border: 1px solid #1b6cfc;
+  box-sizing: border-box;
+  border-radius: 65px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  background: #fff;
+  color: #1b6cfc;
+}
+
+.post_internship_btn {
+  width: 90%;
+  height: 56px;
+  border: 1px solid #1b6cfc;
+  box-sizing: border-box;
+  border-radius: 65px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  background: #1b6cfc;
+  margin-top: 10px;
+}
+
+.internship_details_header {
+  width: 100%;
+  height: 48px;
+  padding: 8px 16px;
+  /* Primary color */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 10px 10px 0 0;
+  color: #ffffff;
+  background: #1b6cfc;
+}
+.internship_details_card {
+  min-width: 250px;
+  max-width: 90%;
+  background: #ffffff;
+  margin: 10px 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  
+}
+.collaps_data {
+  width: 80%;
+}
+
+.collapse_check_item {
+  padding: 8px 16px;
+  border: 1px solid #dce8ff;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.react-tabs__tab--disabled {
+  background: none;
+  border-radius: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 8px;
+  text-decoration: none;
+  color: #ffffff !important;
+  list-style-type: none;
+}
+
+.post_inernship_type_details {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  height: fit-content;
+}
+.post_inernship_type_details::-webkit-scrollbar {
+  display: none;
+}
+/* .internship_btn{
+  position: fixed;
+  bottom: -100px; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */

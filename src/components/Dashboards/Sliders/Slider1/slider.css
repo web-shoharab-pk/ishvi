@@ -1,0 +1,27 @@
+
+
+.container {
+    width: 100%;
+    margin: 5%;
+}
+
+.slick-slide {
+    box-sizing: border-box;
+    box-shadow : 5px 5px 1px #DCDCDC;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.SmallCon{
+    display: flex;
+}
+.slick-slide img {
+    box-sizing: border-box;
+}
+h2{
+    display: flex;
+    float: right;
+    top: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top:15%;
+}

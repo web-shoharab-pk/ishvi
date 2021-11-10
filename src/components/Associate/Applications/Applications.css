@@ -1,0 +1,40 @@
+.application_section {
+  background: #bcf5bc;
+  padding: 10px;
+} 
+.application_tab_class {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.react-tabs__tab--selected1 {
+  background: #1b6cfc !important;
+  border-radius: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #ffffff !important;
+  list-style-type: none;
+}
+.dashboard_category1 {
+  border-radius: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #3f3e3e !important;
+  list-style-type: none;
+  background: #ffffff;
+  cursor: pointer;
+  margin: 4px;
+}

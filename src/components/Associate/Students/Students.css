@@ -1,0 +1,108 @@
+.students_section {
+  background: #daf0ff;
+  padding: 10px;
+}
+.student_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1a1a1a;
+  margin: 8px 16px;
+}
+
+.students_anaylysics_section {
+  width: 100%;
+  text-align: center;
+  max-height: 350px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  /* margin: 10px 0px; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.budget_text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a1a1a;
+  font-family: Century Gothic;
+}
+
+.budget_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #888888;
+  font-family: Century Gothic;
+}
+
+.student_budget {
+  background: #ffffff;
+  margin: 10px 0px;
+  padding: 16px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  width: 100%;
+}
+.follow_up_card {
+  padding: 8px 12px;
+  margin: 10px 0px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.follow_up_card:nth-child(odd) {
+  background: #ecf3f7;
+}
+
+.follow_up_card:nth-child(even) {
+  background: #ffffff;
+}
+
+.chart_1 {
+  width: 50px;
+  height: 50px;
+}
+.student_tab_class {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.react-tabs__tab--selected_follow {
+  background: #1b6cfc;
+  border-radius: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 8px;
+  text-decoration: none;
+  color: #ffffff !important;
+  list-style-type: none;
+}
+
+.dashboard_category_follow {
+  border-radius: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #494949;
+  list-style-type: none;
+  cursor: pointer;
+  margin: 4px;
+}

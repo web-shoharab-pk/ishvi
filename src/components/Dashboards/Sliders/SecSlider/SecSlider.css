@@ -1,0 +1,10 @@
+/* .slick-slide {
+    border: 4px solid #F25634;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.Reviews::before {
+    margin-left: 10px;
+    margin-right: 5px;
+        content:url('${process.env.PUBLIC_URL}/img/Mentor/start.png')
+  }  */

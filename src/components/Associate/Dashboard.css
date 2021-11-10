@@ -1,0 +1,106 @@
+.dashboard_body{
+  /* width: 100%; */
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.tab_class {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* max-width: 410px; */
+  width: 100%;
+  overflow-x: scroll;
+  margin: 0 10px;
+}
+.tab_class::-webkit-scrollbar {
+  display: none;
+}
+.dashboard_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1a1a1a;
+  margin: 10px;
+}
+
+.react-tabs__tab--selected {
+  background: #1b6cfc;
+  border-radius: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 8px;
+  text-decoration: none;
+  color: #ffffff !important;
+  list-style-type: none;
+}
+
+.dashboard_category {
+  border-radius: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #494949;
+  list-style-type: none;
+  cursor: pointer; 
+  
+}
+
+.dollar_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #666666;
+  margin: 10px;
+}
+.my_box {
+  width: 100%;
+  margin: auto;
+}
+.transiction_box {
+  /* width: 382px; */
+  /* max-width: 382px; */
+  width: 100%;
+  min-height: 285px;
+  max-height: 100%;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+}
+
+.cursor_style {
+  cursor: pointer;
+}
+.transiction_btn {
+  padding: 5px;
+  border: solid black 0;
+  background: #fff;
+  cursor: pointer;
+  margin: 8px;
+}
+
+@media screen and (min-width: 350px) {
+  .dashboard_body {
+    /* width: 80%; */
+    width: 90%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .transiction_container {
+    width: 100%;
+  }
+
+}
